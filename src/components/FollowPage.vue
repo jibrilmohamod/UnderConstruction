@@ -110,12 +110,12 @@
  }
  @media screen and (max-width: 400px) {
   #main {
-   border: 1px solid #000;
    display: flex;
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   font-size: 1.2em;
+   font-size: 1em;
+   margin-top: -1em;
   }
   .socials {
    order: 1000000;
