@@ -49,7 +49,7 @@
   height: 20%;
   width: 100vw;
   display: flex;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   /* background-color: #fff; */
  }
  a {

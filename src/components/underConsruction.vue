@@ -16,7 +16,7 @@
 
 <style scoped>
  div {
-  height: 70vh;
+  height: 60vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -24,6 +24,8 @@
   justify-content: center;
   margin-left: 10%;
   font-family: "Bree Serif", serif;
+  border: 1px solid rgb(173, 8, 8);
+  padding-bottom: 0;
  }
  p {
   font-size: 2em;
@@ -32,10 +34,16 @@
  article {
   font-size: 5em;
   width: 60%;
+  height: 20vh;
+  border: 1px solid #000;
  }
  @media screen and (max-width: 700px) {
   article {
    font-size: 4em;
+   height: unset;
+  }
+  div {
+   height: unset;
   }
  }
  @media screen and (max-height: 800px) {
