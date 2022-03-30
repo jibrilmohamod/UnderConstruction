@@ -143,6 +143,7 @@
    margin-top: 0.5em;
    width: 20px;
    margin-right: unset;
+   font-size: 1.4em;
   }
  }
 </style>

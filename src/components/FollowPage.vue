@@ -87,7 +87,7 @@
  li a {
   margin-left: unset;
   margin: 10px;
-  font-size: 1.5em;
+  font-size: 2em;
   text-decoration: none;
  }
  .face {
