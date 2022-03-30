@@ -35,13 +35,18 @@
   width: 60vw;
   height: 20vh;
  }
- @media screen and (max-width: 700px) {
+ @media screen and (max-width: 1200px) {
   article {
    font-size: 4em;
    height: unset;
   }
   div {
    height: unset;
+  }
+ }
+ @media screen and (max-width: 400px) {
+  article {
+   font-size: 3em;
   }
  }
  @media screen and (max-height: 800px) {

@@ -108,4 +108,17 @@
   font-size: 1.6em;
   color: aqua;
  }
+ @media screen and (max-width: 400px) {
+  #main {
+   border: 1px solid #000;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.2em;
+  }
+  .socials {
+   order: 1000000;
+  }
+ }
 </style>

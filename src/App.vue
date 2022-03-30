@@ -61,7 +61,7 @@
  #logo h1 {
   font-family: "Maven Pro", sans-serif;
   font-size: 2em;
-  color: rgb(11, 94, 161);
+  color: rgb(255, 255, 255);
   display: inline;
   position: relative;
   top: -1.2em;
@@ -89,7 +89,7 @@
   background: #fff;
   overflow: hidden;
   color: #00468b;
-  margin-right: 1em;
+  margin-right: 14em;
  }
  .modal:hover {
   color: #fff;
@@ -125,6 +125,24 @@
   .modal {
    height: 20px;
    margin-top: 0.5em;
+   margin-right: unset;
+  }
+ }
+ @media screen and (max-width: 400px) {
+  html {
+   font-size: 0.8em;
+  }
+  nav {
+   font-size: 0.6em;
+  }
+  img {
+   height: 60px;
+  }
+  .modal {
+   height: 20px;
+   margin-top: 0.5em;
+   width: 20px;
+   margin-right: unset;
   }
  }
 </style>
