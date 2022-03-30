@@ -68,27 +68,35 @@
   color: rgb(117, 110, 110);
  }
  .socials {
-  display: grid;
-  place-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
  }
  ul {
   display: flex;
-  /* justify-content: center; */
+  margin: 0;
+  padding: 0;
  }
  li {
   list-style: none;
  }
+ a {
+  margin-left: unset;
+ }
  li a {
-  padding: 5%;
+  margin-left: unset;
   margin: 10px;
   font-size: 1.5em;
   text-decoration: none;
  }
  .face {
   color: #4267b2;
+  margin-right: 10px;
  }
  .ins {
   color: #c13584;
+  margin-left: 10px;
  }
  .timer {
   display: grid;

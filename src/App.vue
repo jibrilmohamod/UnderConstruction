@@ -36,24 +36,27 @@
   height: 100vh;
   background-image: url(./assets/bg.jpeg);
   background-size: cover;
+  background-position: center;
+  box-sizing: border-box;
+  overflow: hidden;
  }
  img {
-  /* border: 1px red solid; */
   height: 100px;
   object-position: 50%;
  }
  #app {
   color: rgb(254, 254, 255);
+  height: 100%;
  }
  nav {
   height: 20%;
-  width: 100vw;
+  width: 100%;
   display: flex;
-  /* justify-content: space-around; */
-  /* background-color: #fff; */
+  justify-content: space-between;
  }
  a {
   text-decoration: none;
+  margin-left: 8em;
  }
  #logo h1 {
   font-family: "Maven Pro", sans-serif;
@@ -85,8 +88,8 @@
   place-items: center;
   background: #fff;
   overflow: hidden;
-  border: 2px solid #031e3a;
   color: #00468b;
+  margin-right: 1em;
  }
  .modal:hover {
   color: #fff;
@@ -104,5 +107,24 @@
   height: 0;
   width: 100%;
   background: #0a325a;
+ }
+ @media screen and (max-width: 700px) {
+  nav {
+   margin: unset;
+   font-size: 12px;
+   display: flex;
+   align-content: center;
+   justify-content: space-between;
+  }
+  nav a {
+   margin-left: unset;
+  }
+  img {
+   height: 80px;
+  }
+  .modal {
+   height: 20px;
+   margin-top: 0.5em;
+  }
  }
 </style>

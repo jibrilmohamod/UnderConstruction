@@ -17,14 +17,13 @@
 <style scoped>
  div {
   height: 60vh;
-  width: 100vw;
+  width: 90%;
   display: flex;
   flex-direction: column;
   align-content: center;
   justify-content: center;
   margin-left: 10%;
   font-family: "Bree Serif", serif;
-  border: 1px solid rgb(173, 8, 8);
   padding-bottom: 0;
  }
  p {
@@ -33,9 +32,8 @@
  }
  article {
   font-size: 5em;
-  width: 60%;
+  width: 60vw;
   height: 20vh;
-  border: 1px solid #000;
  }
  @media screen and (max-width: 700px) {
   article {
@@ -47,6 +45,9 @@
   }
  }
  @media screen and (max-height: 800px) {
+  div {
+   overflow: hidden;
+  }
   article {
    font-size: 3em;
   }
