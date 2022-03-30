@@ -38,4 +38,9 @@
    font-size: 4em;
   }
  }
+ @media screen and (max-height: 800px) {
+  article {
+   font-size: 3em;
+  }
+ }
 </style>
