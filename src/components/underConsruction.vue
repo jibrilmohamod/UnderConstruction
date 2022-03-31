@@ -84,7 +84,10 @@
    overflow: hidden;
   }
   article {
-   font-size: 1em;
+   font-size: 2em;
+  }
+  .footer {
+   font-size: 1.5em;
   }
  }
 </style>
