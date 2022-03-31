@@ -87,6 +87,8 @@
    font-size: 2em;
   }
   .footer {
+   margin-top: unset;
+   margin-top: 10%;
    font-size: 1.5em;
   }
  }
