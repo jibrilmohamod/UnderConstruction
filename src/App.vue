@@ -108,6 +108,23 @@
   width: 100%;
   background: #0a325a;
  }
+ @media screen and (max-width: 1100px) and (min-width: 700px) {
+  img {
+   height: 100px;
+  }
+  nav {
+   font-size: 14px;
+   display: flex;
+   justify-content: space-between;
+  }
+  nav a {
+   margin-left: unset;
+  }
+  .modal {
+   margin: unset;
+   /* margin-right: 6em; */
+  }
+ }
  @media screen and (max-width: 700px) {
   nav {
    margin: unset;
@@ -128,7 +145,7 @@
    margin-right: unset;
   }
  }
- @media screen and (max-width: 400px) {
+ @media screen and (max-width: 440px) {
   html {
    font-size: 0.8em;
   }

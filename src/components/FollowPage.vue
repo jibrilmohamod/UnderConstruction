@@ -1,7 +1,7 @@
 <template>
  <div id="main">
   <div class="socials">
-   <p>follow us</p>
+   <p>Follow us</p>
    <ul>
     <li>
      <a
@@ -63,9 +63,8 @@
   height: 10%;
  }
  p {
-  font-size: 2em;
-  font-family: "Nanum Pen Script", cursive;
-  color: rgb(117, 110, 110);
+  font-size: 1.5em;
+  color: rgb(249, 250, 249);
  }
  .socials {
   display: flex;
@@ -115,7 +114,7 @@
    justify-content: center;
    align-items: center;
    font-size: 1em;
-   margin-top: -1em;
+   margin-top: 7em;
   }
   .socials {
    order: 1000000;
