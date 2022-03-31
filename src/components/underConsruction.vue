@@ -88,7 +88,7 @@
   }
   .footer {
    margin-top: unset;
-   margin-top: 10%;
+   margin-top: 5%;
    font-size: 1.5em;
   }
  }
