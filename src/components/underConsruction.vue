@@ -1,13 +1,12 @@
 <template>
  <div data-aos="fade-up" data-aos-duration="3000">
-  <p>Mission Statement</p>
   <article>
    Solving Marketing Challenges for Entrepreneurs & Businesses Through Digital &
    Print Media
+   <span class="footer"
+    ><i> We are preparing something exciting and amazing for you....</i></span
+   >
   </article>
-  <p class="footer">
-   We are preparing something exciting and amazing for you....
-  </p>
  </div>
 </template>
 
@@ -34,7 +33,7 @@
   margin-top: 4%;
  }
  p {
-  font-size: 2em;
+  /* font-size: 2em; */
   text-decoration: line;
  }
  article {
@@ -43,13 +42,17 @@
   height: 80vh;
  }
  .footer {
-  font-size: 3em;
-  margin-top: -10%;
+  font-family: "Arima Madurai", cursive;
+  font-size: 0.6em;
+  font-weight: 100;
+  display: block;
   width: 60vw;
+  margin-top: 2rem;
  }
- @media screen and (max-width: 1200px) and (min-width: 500px) {
+ @media screen and (max-width: 1100px) and (min-width: 800px) {
   div {
    margin-top: unset;
+   margin-top: 1rem;
   }
   article {
    font-size: 3.6em;
@@ -59,13 +62,28 @@
    height: unset;
   }
   .footer {
-   margin-top: unset;
-   margin-top: 10%;
-   font-size: 2em;
-   width: 80%;
+   /* border: 1px solid #000; */
+   font-size: 2.2rem;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
   }
  }
- @media screen and (max-width: 700px) {
+ @media screen and (min-width: 1200px) {
+  div {
+   position: relative;
+   top: 2rem;
+  }
+  .footer {
+   font-size: 3rem;
+   margin-top: 3rem;
+   margin-bottom: 2rem;
+   width: 80vh;
+   position: relative;
+   top: 20px;
+  }
+ }
+
+ @media screen and (max-width: 800px) {
   div {
    margin-top: unset;
    margin-top: 50px;
@@ -74,9 +92,9 @@
    font-size: 3em;
   }
   .footer {
-   font-size: 1.5em;
-   margin-top: unset;
-   margin-top: 4%;
+   font-size: 2rem;
+   margin-top: 2rem;
+   margin-bottom: 2rem;
   }
  }
  @media screen and (max-height: 800px) {
@@ -85,10 +103,6 @@
   }
   article {
    font-size: 2em;
-  }
-  .footer {
-   margin-top: unset;
-   font-size: 1.5em;
   }
  }
 </style>

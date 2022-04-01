@@ -61,6 +61,7 @@
   display: flex;
   justify-content: space-around;
   height: 10%;
+  /* margin-top: 50px; */
  }
  p {
   font-size: 1.5em;
@@ -90,11 +91,11 @@
   text-decoration: none;
  }
  .face {
-  color: #4267b2;
+  color: #c1c6cf;
   margin-right: 10px;
  }
  .ins {
-  color: #c13584;
+  color: #f3f3f3;
   margin-left: 10px;
  }
  .timer {
